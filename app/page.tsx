@@ -1,4 +1,3 @@
-import Image from "next/image";
 import View from "./view";
 
 export default function Home() {

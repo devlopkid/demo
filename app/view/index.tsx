@@ -8,7 +8,6 @@ import CardSection from './components/cardSection'
 import SliderOne from './components/sliderOne/SliderOne'
 import Insights from './components/insights'
 import WorkBlock from './components/workBlock'
-import Footer from './components/footer'
 
 
 const View = () => {
