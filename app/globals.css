@@ -25,3 +25,10 @@ body {
     text-wrap: balance;
   }
 }
+.demo-container
+{
+  max-width: 1495px;
+  margin-left: auto;
+  margin-left: auto;
+  padding: 0px 16px;
+}
