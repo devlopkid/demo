@@ -23,7 +23,7 @@ const Insights=()=>{
 
     ]
     return(
-<section className='py-[30px] lg:py-[80px] 2xl:py-[100px]'>
+<section className='py-[30px] sm:py-[45px] lg:py-[80px] 2xl:py-[100px]'>
     <div className='container mx-auto px-4'>
         <div>
             <h3 className='text-[22px] lg:text-[50px] 2xl:text-[54px] leading-7 lg:leading-[54px] 2xl:leading-[60px] font-light'>Latest Insights</h3>
@@ -32,11 +32,11 @@ const Insights=()=>{
             <div className='lg:flex lg:[&>div]:px-5 2xl:[&>div]:px-6 lg:-mx-5 2xl:-mx-6 [&>div:not(:last-child)]:mb-7 lg:[&>div:not(:last-child)]:mb-0'>
                 {insightsData.map((item,index)=>(
                     <div className='lg:w-1/3 relative' key={index}>
-                <Image src={item.imgUrl} alt='insightsImage1'/>
+                <Image src={item.imgUrl} alt='insightsImage1' className='w-full h-auto sm:h-[400px] lg:h-auto object-cover object-top rounded-[17px]'/>
                 <div className='absolute bottom-4 lg:bottom-10 2xl:bottom-[46px] px-3 lg:px-[42px] 2xl:px-[47px] text-white'>
                 <p className='text-sm lg:text-base p-2.5 2xl:pb-3'>{item.date}</p>
-                <h4 className='text-base lg:text-2xl 2xl:text-[28px] leading-5 lg:leading-8 2xl:leading-9 font-medium'>{item.title}</h4>
-                <a href="#" className='inline-block text-base lg:text-lg 2xl:text-xl font-medium pt-1.5 lg:pt-3 2xl:pt-4'>Read More</a>
+                <h4 className='text-base lg:text-lg 2xl:text-[28px] leading-5 lg:leading-6 2xl:leading-9 font-medium'>{item.title}</h4>
+                <a href="#" className='inline-block text-sm lg:text-base 2xl:text-xl font-medium pt-1.5 lg:pt-3 2xl:pt-4'>Read More</a>
                 </div>
 
                 </div>

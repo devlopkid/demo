@@ -1,6 +1,9 @@
 import Image from 'next/image'
 import React from 'react'
 import Fb from './images/fb.png'
+import X from './images/x.png'
+import linkedIn from './images/linkedIn.png'
+import Youtube from './images/youtube.png'
 const ContactUs=()=>{
     return(
         <div>
@@ -36,10 +39,9 @@ const ContactUs=()=>{
                         <p className='pb-2.5 lg:pb-4 2xl:pb-5 text-sm lg:text-base font-semibold'>Follow us on</p>
                         <ul className='[&>li:not(:last-child)]:pr-2.5 lg:[&>li:not(:last-child)]:pr-[14px] [&>li]:inline-block'>
                             <li><a href="#"><Image src={Fb} alt='fb'/></a></li>
-                            <li><a href="#"><Image src={Fb} alt='fb'/></a></li>
-                            <li><a href="#"><Image src={Fb} alt='fb'/></a></li>
-                            <li><a href="#"><Image src={Fb} alt='fb'/></a></li>
-                            <li><a href="#"><Image src={Fb} alt='fb'/></a></li>
+                            <li><a href="#"><Image src={X} alt='fb'/></a></li>
+                            <li><a href="#"><Image src={linkedIn} alt='fb'/></a></li>
+                            <li><a href="#"><Image src={Youtube} alt='fb'/></a></li>
 
                         </ul>
 

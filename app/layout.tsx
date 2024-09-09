@@ -4,6 +4,8 @@ import "./globals.css";
 import {
   Poppins,
 } from "@next/font/google";
+import Footer from "./view/components/footer";
+import Header from "./view/components/banner/Header";
 
 const geistSans = localFont({
   src: "./fonts/GeistVF.woff",
@@ -37,7 +39,11 @@ export default function RootLayout({
       <body
         className={`${geistSans.variable} ${geistMono.variable} ${poppins.variable} antialiased`}
       >
+        <div className="relative">
+        <Header/>
+        </div>
         {children}
+        <Footer/>
       </body>
     </html>
   );

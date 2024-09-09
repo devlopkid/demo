@@ -6,7 +6,7 @@ const SliderOne =()=>{
     return(
         <section className='relative'>
             <div className='absolute bottom-0 lg:bottom-auto lg:inset-0 '>
-                <Image src={BgImage} alt='' className='h-[450px] lg:h-auto object-cover object-right lg:object-fill'/>
+                <Image src={BgImage} alt='' className='h-[450px] sm:h-[500px] lg:h-auto object-cover object-right lg:object-fill'/>
                
             </div>
             <div className='relative py-[30px] lg:py-[80px] 2xl:py-[100px]'>
@@ -22,7 +22,7 @@ const SliderOne =()=>{
     <h5 className='pt-3 lg:pt-[30px] 2xl:pt-[35px] pl-3 lg:pl-[38px] 2xl:pl-[42px] pb-2.5 lg:pb-[18px] 2xl:pb-[22px] font-medium text-lg lg:text-[26px] 2xl:text-[29px] leading-6 lg:leading-7 2x:leading-8'>Lorem Ipsum?</h5>
     <div className='relative px-1.5 lg:px-2.5 '>
         <div>
-    <Image src={SliderImage} alt='slider'/>
+    <Image src={SliderImage} alt='slider' className='w-full h-auto sm:h-[450px] lg:h-auto object-cover object-top'/>
     </div>
   
     <div className='absolute bottom-0 '>

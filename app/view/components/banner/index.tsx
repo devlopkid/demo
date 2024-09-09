@@ -9,7 +9,7 @@ const Banner = () => {
       <div className='absolute inset-0'>
         <Image src={BannerBg} alt='banner' className='h-full w-full object-cover'/>
       </div>
-      <Header/>
+      {/* <Header/> */}
       <div className='absolute z-10 bottom-10 lg:bottom-[144px] w-full'>
     <div className='container mx-auto px-4'>
     <div className='text-white max-w-[1028px]'>

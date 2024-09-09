@@ -27,7 +27,7 @@ const ImageGallery=()=>{
         },
     ]
     return(
-<section className="bg-[#F2F2F2] py-[30px] lg:py-[100px] 2xl:py-[140px]">
+<section className="bg-[#F2F2F2] py-[30px] sm:py-[45px] lg:py-[100px] 2xl:py-[140px]">
 <div className="container mx-auto px-4">
     <div>
         <h3 className="max-w-[700px] 2xl:max-w-[891px] text-[26px] lg:text-[44px] 2xl:text-[54px] leading-8 lg:leading-[52px] 2xl:leading-[72px] pb-10 2xl:pb-[50px]">Lorem ipsum dolor sit amet, consectetur </h3>

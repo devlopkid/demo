@@ -23,7 +23,6 @@ const View = () => {
         <SliderOne/>
         <Insights/>
         <WorkBlock/>
-        <Footer/>
       
     </div>
   )

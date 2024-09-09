@@ -19,7 +19,7 @@ const Experience=()=>{
 
     ]
     return(
-        <section className='py-6 lg:py-[90px] 2xl:py-[95px]'>
+        <section className='py-6 sm:py-[45px] lg:py-[90px] 2xl:py-[95px]'>
 <div className='container mx-auto px-4'>
     {/* <div className='flex [&>div:not(:last-child)]:border-r-2 [&>div:not(:last-child)]:border-[#002A3A] [&>div:not(:last-child)]:pr-[100px] [&>div]:ml-[100px]'> */}
     <div className='lg:flex [&>div:not(:last-child)]:border-b lg:[&>div:not(:last-child)]:border-b-0 lg:[&>div:not(:last-child)]:border-r [&>div:not(:last-child)]:border-[#002A3A] [&>div:not(:last-child)]:pb-5 lg:[&>div:not(:last-child)]:pb-0 [&>div:not(:first-child)]:pt-5 lg:[&>div:not(:first-child)]:pt-0 [&>div]:text-center lg:[&>div:first-child]:!text-left'>
